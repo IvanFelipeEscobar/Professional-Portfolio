@@ -5,3 +5,5 @@ function NavBar({currentPage, handlePageChange}){
         <ul></ul>
     )
 }
+
+export default NavBar
