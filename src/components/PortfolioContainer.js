@@ -4,6 +4,8 @@ import Home from './Home'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
 import Projects from './Projects'
+import Header from "./Header"
+import Footer from "./Footer"
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');

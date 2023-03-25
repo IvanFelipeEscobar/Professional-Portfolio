@@ -16,7 +16,7 @@ function NavBar({currentPage, handlePageChange}){
                     href="#aboutme" onClick={()=>handlePageChange(`AboutMe`)} 
                     className={currentPage===`AboutMe`?`nav-link active`:`nav-link`}
                 > 
-                Home
+                About Me
                 </a>
             </li>
             <li className="nav-item">
@@ -24,7 +24,7 @@ function NavBar({currentPage, handlePageChange}){
                     href="#projects" onClick={()=>handlePageChange(`Projects`)} 
                     className={currentPage===`Projects`?`nav-link active`:`nav-link`}
                 > 
-                Home
+                Projects
                 </a>
             </li>
             <li className="nav-item">
@@ -32,7 +32,7 @@ function NavBar({currentPage, handlePageChange}){
                     href="#contact" onClick={()=>handlePageChange(`Contact`)} 
                     className={currentPage===`Contact`?`nav-link active`:`nav-link`}
                 > 
-                Home
+                Contact
                 </a>
             </li>
         </ul>
