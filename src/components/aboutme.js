@@ -3,7 +3,7 @@ import React from "react"
 const AboutMe = () => {
     return (
         //About me html here
-        <div></div>
+        <div>AboutMe</div>
     )
 }
  export default AboutMe
