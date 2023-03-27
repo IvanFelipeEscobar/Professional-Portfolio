@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Projects from './Projects'
 import Header from "./Header"
 import Footer from "./Footer"
-import '../styles/PortfolioContainer.css'
+import projects from '../projectsArray.js'
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -22,7 +22,7 @@ export default function PortfolioContainer() {
       if (currentPage === 'Contact') {
         return <Contact />;
       }
-      return <Projects />;
+      return <Projects projects={projects} />;
     };
   
     const handlePageChange = (page) => setCurrentPage(page);

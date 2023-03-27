@@ -1,5 +1,4 @@
 import React from "react"
-import '../styles/NavBar.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faHatWizard, faHome, faFileZipper, faCode} from '@fortawesome/free-solid-svg-icons'
 function NavBar({currentPage, handlePageChange}){
