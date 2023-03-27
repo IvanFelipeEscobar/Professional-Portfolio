@@ -4,7 +4,7 @@ import {faHatWizard, faHome, faFileZipper, faCode} from '@fortawesome/free-solid
 function NavBar({currentPage, handlePageChange}){
     return(
         //nav bar html here
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs flex-column flex-sm-row">
             <li className="nav-item">
                 <a 
                     href="#home" onClick={()=>handlePageChange(`Home`)} 

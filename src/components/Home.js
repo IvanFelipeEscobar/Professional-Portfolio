@@ -13,7 +13,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons'
 const Home = () => {
     return (
         //Home HTML here
-        <div className="card home">
+        <div className="card text-bg-dark">
         <h2 className="card-header">
          <FontAwesomeIcon icon={faHouse} />    Home
         </h2>
