@@ -1,12 +1,13 @@
 import React from "react"
-import '../styles/AboutMe.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faHatWizard } from "@fortawesome/free-solid-svg-icons"
 
 const AboutMe = () => {
     return (
         //About me html here
-       <div className="card">
+       <div className="card about">
         <h2 className="card-header">
-         About Me:
+        <FontAwesomeIcon icon={faHatWizard}/> About Me:
         </h2>
         <div className="card-body">
           <h5 className="card-title">Hi!</h5>
