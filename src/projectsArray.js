@@ -1,37 +1,37 @@
 const projects = [
     {
-        src: `../images/code-quizSS.png`,//img path
+        src: `/code-quizSS.png`,//img path
         title: `Code Quiz`, //project title
         link: `https://ivanfelipeescobar.github.io/Code-Quiz/`, //deployed app link
         github: `https://github.com/IvanFelipeEscobar/Code-Quiz`
 
     },
     {
-        src: ``,//img path
-        title: ``, //project title
-        link: ``, //deployed app link
-        github: ``
+        src: `/meme-lib.png`,//img path
+        title: `Meme-Lib`, //project title
+        link: `https://ivanfelipeescobar.github.io/MemeLib/`, //deployed app link
+        github: `https://github.com/IvanFelipeEscobar/MemeLib`
 
     },
     {
-        src: ``,//img path
-        title: ``, //project title
-        link: ``, //deployed app link
-        github: ``
+        src: `/day-in-the-life.png`,//img path
+        title: `Day in the Life`, //project title
+        link: `https://day-in-the-life.herokuapp.com/`, //deployed app link
+        github: `https://github.com/IvanFelipeEscobar/Day-in-the-Life`
 
     },
     {
-        src: ``,//img path
-        title: ``, //project title
-        link: ``, //deployed app link
-        github: ``
+        src: `/tech-blog.png`,//img path
+        title: `Tech-Blog`, //project title
+        link: `https://technology-blog-spot.herokuapp.com/`, //deployed app link
+        github: `https://github.com/IvanFelipeEscobar/Tech-Blog`
 
     },
     {
-        src: ``,//img path
-        title: ``, //project title
-        link: ``, //deployed app link
-        github: ``
+        src: `/weather-dash.png`,//img path
+        title: `Weather Dashboard`, //project title
+        link: `https://ivanfelipeescobar.github.io/Weather-Dashboard/`, //deployed app link
+        github: `https://github.com/IvanFelipeEscobar/Weather-Dashboard`
 
     },
 ]
