@@ -34,5 +34,12 @@ const projects = [
         github: `https://github.com/IvanFelipeEscobar/Weather-Dashboard`
 
     },
+    {
+        src: `/password.png`,//img path
+        title: `Password-Generator`, //project title
+        link: `https://ivanfelipeescobar.github.io/Password-Generator/`, //deployed app link
+        github: `https://github.com/IvanFelipeEscobar/Password-Generator`
+
+    }
 ]
 export default projects
