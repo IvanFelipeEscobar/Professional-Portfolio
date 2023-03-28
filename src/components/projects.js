@@ -11,7 +11,7 @@ const Projects = (props) => {
      {props.projects.map(project => (
         <li className="list-group-item" key={project.title} alt={project.title}>
          <h3><a href={project.link}>{project.title}</a></h3>
-         <a href={project.link}><img src={project.src} alt={project.title} className="projectPic"/></a>
+         <a href={project.link}><img src={process.env.PUBLIC_URL + project.src} alt={project.title} className="projectPic"/></a>
          <div>
             <a href={project.github}><FontAwesomeIcon icon={faGithub} /> GitHub Repo</a>
          </div>
