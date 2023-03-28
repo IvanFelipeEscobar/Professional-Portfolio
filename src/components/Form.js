@@ -38,7 +38,7 @@ const Form = () => { //create state variables && set initial val to empty string
     }
 
     return (
-        <form action="mailto:ivnescbr1989@gmail.com" method="get" className="form">
+        <form className="form">
             <input
                 value={name}
                 name="name"
