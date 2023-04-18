@@ -1,5 +1,11 @@
 const projects = [
     {
+        src: `/tomatoduck.png`,
+        title: `Tomato Duck`,
+        link: `https://tomatoduck.herokuapp.com/`,
+        github: `https://github.com/indwomt/tomatoduck`
+    },
+    {
         src: `/code-quizSS.png`,//img path
         title: `Code Quiz`, //project title
         link: `https://ivanfelipeescobar.github.io/Code-Quiz/`, //deployed app link
