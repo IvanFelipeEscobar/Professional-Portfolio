@@ -1,43 +1,20 @@
-import React from "react"
+import {Nav, Navbar, Container} from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faHatWizard, faHome, faFileZipper, faCode} from '@fortawesome/free-solid-svg-icons'
-function NavBar({currentPage, handlePageChange}){
+// import { LinkContainer } from 'react-router-bootstrap'
+const NavBar = () => {
     return(
-        //nav bar html here
-        <ul className="nav nav-tabs flex-column flex-sm-row">
-            <li className="nav-item">
-                <a 
-                    href="#home" onClick={()=>handlePageChange(`Home`)} 
-                    className={currentPage===`Home`?`nav-link active`:`nav-link`}
-                > 
-                Home <FontAwesomeIcon icon={faHome} />
-                </a>
-            </li>
-            <li className="nav-item">
-                <a 
-                    href="#aboutme" onClick={()=>handlePageChange(`AboutMe`)} 
-                    className={currentPage===`AboutMe`?`nav-link active`:`nav-link`}
-                > 
-                About Me <FontAwesomeIcon icon={faHatWizard} />
-                </a>
-            </li>
-            <li className="nav-item">
-                <a 
-                    href="#projects" onClick={()=>handlePageChange(`Projects`)} 
-                    className={currentPage===`Projects`?`nav-link active`:`nav-link`}
-                > 
-                Projects  <FontAwesomeIcon icon={faCode}/>
-                </a>
-            </li>
-            <li className="nav-item">
-                <a 
-                    href="#contact" onClick={()=>handlePageChange(`Contact`)} 
-                    className={currentPage===`Contact`?`nav-link active`:`nav-link`}
-                > 
-                Contact <FontAwesomeIcon icon={faFileZipper}/>
-                </a>
-            </li>
-        </ul>
+    <Navbar bg="dark" variant="dark">
+    <Container>
+     <Navbar.Brand>Ivan Felipe Escobar</Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="/">Home <FontAwesomeIcon icon={faHome} /></Nav.Link>
+        <Nav.Link href="/aboutme">About Me <FontAwesomeIcon icon={faHatWizard} /></Nav.Link>
+        <Nav.Link href="/projects">Projects <FontAwesomeIcon icon={faCode}/></Nav.Link>
+        <Nav.Link href="/contact">Contact Me <FontAwesomeIcon icon={faFileZipper} /></Nav.Link>
+      </Nav>
+    </Container>
+  </Navbar>
     )
 }
 
