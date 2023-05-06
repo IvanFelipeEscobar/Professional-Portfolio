@@ -1,18 +1,18 @@
-import NavBar from './NavBar'
-import Home from './Home'
-import AboutMe from './AboutMe'
-import Contact from './Contact'
-import Projects from './Projects'
+import NavBar from './components/NavBar'
+import Home from './components/Home'
+import AboutMe from './components/AboutMe'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
 // import Header from "./Header"
-import Footer from "./Footer"
-import projects from '../projectsArray.js'
+import Footer from "./components/Footer"
+import projects from './projectsArray.js'
 import './App.css';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 const  App = () => {
-    <Router>
+   return ( <Router>
         <NavBar/>
         <Routes>
             <Route
@@ -34,7 +34,7 @@ const  App = () => {
         </Routes>
         <Footer/>
     </Router>
-
+   )
 }
 
 export default App;
