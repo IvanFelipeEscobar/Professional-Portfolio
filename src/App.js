@@ -3,13 +3,10 @@ import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-// import Header from "./Header"
 import Footer from "./components/Footer"
-import projects from './projectsArray.js'
+import projects from './utils/projectsArray'
 import './App.css';
-
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-
 
 const  App = () => {
    return ( <Router>

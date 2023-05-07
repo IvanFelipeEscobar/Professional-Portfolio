@@ -1,23 +1,23 @@
-import React from "react"
+import {Card} from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHatWizard } from "@fortawesome/free-solid-svg-icons"
 import pp from "../images/pp.png"
 const AboutMe = () => {
     return (
-        //About me html here
-       <div className="card text-bg-dark">
-        <h2 className="card-header">
-        <FontAwesomeIcon icon={faHatWizard}/> About Me:
-        </h2>
-        <div className="card-body">
-          <h5 className="card-title"><img src={pp} alt="ProfilePic"/></h5>
-          <p className="card-text">
-            My name is Ivan Escobar I am 33 years old and have been an automotive mechanic for over 15 years. Born in Medellin, Colombia where I lived the first decade of my life. Spanish is my first language and I am still proficient at it. 
-            Currently, I am actively trying to make a career change into software development and have been learning a wide array of development technologies and tooling. This very site is a good example of the skills I've learned in the software development bootcamp I am currently attending.
-            To see more examples of my work please visit the Projects portion of this site! Thank you for visiting!!!
-          </p>
-          </div>
-       </div>
+        <Card>
+
+          <Card.Title className='m-3'><h2>About Me  <FontAwesomeIcon icon={faHatWizard}/></h2></Card.Title>
+          <Card.Body>
+          <img src={pp} alt='ivan escobar'/>
+            <Card.Text>
+              I am an Automotive Technician of 15+ years, looking to make a carrer switch into software development.
+              Currently I am the shop manager/lead technician at Maximotor, a small family-owned repair shop in Marietta, GA.
+              Problem solving is an everyday part of the Automotive industry and I am proficient in it, and to some extent enjoy the thrill of overcoming a difficult endeavor.
+              Efficient communication skills are required in order to properly convey to the technician the cutomer's concern, as well as to communicate to the customer the recommended repairs.
+              Because of the nauture of the work managing expectations can be tricky, but I have always found that straight-forward honesty has always served me well.
+            </Card.Text>
+        </Card.Body>
+      </Card>
     )
 }
  export default AboutMe
