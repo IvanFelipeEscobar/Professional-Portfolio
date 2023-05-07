@@ -8,7 +8,7 @@ const NavBar = () => {
     <Container>
      <Navbar.Brand>Ivan Felipe Escobar</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="/">Home <FontAwesomeIcon icon={faHome} /></Nav.Link>
+        <Nav.Link href="/" active>Home <FontAwesomeIcon icon={faHome} /></Nav.Link>
         <Nav.Link href="/aboutme">About Me <FontAwesomeIcon icon={faHatWizard} /></Nav.Link>
         <Nav.Link href="/projects">Projects <FontAwesomeIcon icon={faCode}/></Nav.Link>
         <Nav.Link href="/contact">Contact Me <FontAwesomeIcon icon={faFileZipper} /></Nav.Link>

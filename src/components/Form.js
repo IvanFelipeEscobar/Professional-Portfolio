@@ -1,85 +1,35 @@
-
-
-const Form = () => { //create state variables && set initial val to empty string
-    // const [email, setEmail] = useState(``)
-    // const [name, setName] = useState(``)
-    // const [message, setMessage] = useState(``)
-
-    // const handleChange = (e) => {
-        
-    //     const { name: inputType, value: inputValue} = e.target
-
-    //    if (inputType===`email`){
-    //     setEmail(inputValue)
-    //    } else if(inputType===`name`) {
-    //     setName(inputValue)
-    //    } else {
-    //     setMessage(inputValue)
-    //    }
-
-    // }
-    // const handleSubmit = (e) => {
-    //     e.preventDefault()
-    //     if(!validateEmail(email)) {
-    //         alert(`not a valid Email !!!`)
-    //     }
-    //     if (!name || !email || !message ) {
-    //         alert('Please enter all Fields')
-    //     }
-    //     if (validateEmail(email) && name && email && message) {
-    //    setEmail(``)
-    //    setMessage(``)
-    //    setName(``) 
-    // }
-
-       
-    // }
-
+import {Form} from 'react-bootstrap'
+const Form = () => { 
     return (
-        <form className="form"  action="https://formsubmit.co/ivnescbr1989@gmail.com" method="POST">
-            <label for="name">Name: </label>
-            <input
-                // value={name}
-                name="name"
-                id="name"
-                // onChange={handleChange}
-                type="text"
-                placeholder="name"
-                required
-            /> <br/>
-            <label for="title">Professional Title: </label>
-            <input
-                // value={name}
-                name="title"
-                id="title"
-                // onChange={handleChange}
-                type="text"
-                placeholder="professional title"
-            /> <br/>
-            <label for="email">Contact E-Mail: </label>
-            <input
-                // value={email}
-                name="email"
-                id="email"
-                // onChange={handleChange}
-                type="email"
-                placeholder="email"
-                required
-            /><br/>
-            <label for="message">Comments, Question and/or Concerns: </label>
-            <input
-                // value={message}
-                name="message"
-                id="message"
-                // onChange={handleChange}
-                type="textarea"
-                placeholder="message"
-            /><br/>
-            <button type="submit" 
-            // onClick={handleSubmit}
-            >Submit</button>
-       
-        </form>
+        <Form className="form"  action="https://formsubmit.co/ivnescbr1989@gmail.com" method="POST">
+            <Form.Group>
+                <Form.Label>
+                    What is your name?
+                </Form.Label>
+                <Form.Contol name="name" type="text" placeholder="name" required />
+                <Form.Text>This is required to submit</Form.Text>
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>
+                    What is your professional title?
+                </Form.Label>
+                <Form.Contol name="title" type="text" placeholder="title"/>
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>
+                    What is your E-mail?
+                </Form.Label>
+                <Form.Contol name="email" type="text" placeholder="e-mail" required />
+                <Form.Text>This is required to submit</Form.Text>
+            </Form.Group>
+            <Form.Group>
+                <Form.Label>
+                    Do you have any question, coments, and/or concerns?
+                </Form.Label>
+                <Form.Contol name="name" type="textarea" placeholder="name"/>
+            </Form.Group>
+            <Form.Text>Submitted information will be e-mailed to ivnescbr1989@gmail.com via formsubmit.co</Form.Text>
+        </Form>
     )
 }
 
