@@ -4,7 +4,7 @@ import css from '../images/css.png'
 import node from '../images/node.png'
 import js from '../images/js.png'
 import reactIcon from '../images/react.png'
-import resume from '../images/resume.doc'
+import resume from '../images/resume.pdf'
 
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'

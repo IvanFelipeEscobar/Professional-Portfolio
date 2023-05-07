@@ -1,66 +1,83 @@
-import React, {useState} from "react";
-import { validateEmail } from "../utils/helpers";
+
 
 const Form = () => { //create state variables && set initial val to empty string
-    const [email, setEmail] = useState(``)
-    const [name, setName] = useState(``)
-    const [message, setMessage] = useState(``)
+    // const [email, setEmail] = useState(``)
+    // const [name, setName] = useState(``)
+    // const [message, setMessage] = useState(``)
 
-    const handleChange = (e) => {
+    // const handleChange = (e) => {
         
-        const { name: inputType, value: inputValue} = e.target
+    //     const { name: inputType, value: inputValue} = e.target
 
-       if (inputType===`email`){
-        setEmail(inputValue)
-       } else if(inputType===`name`) {
-        setName(inputValue)
-       } else {
-        setMessage(inputValue)
-       }
+    //    if (inputType===`email`){
+    //     setEmail(inputValue)
+    //    } else if(inputType===`name`) {
+    //     setName(inputValue)
+    //    } else {
+    //     setMessage(inputValue)
+    //    }
 
-    }
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        if(!validateEmail(email)) {
-            alert(`not a valid Email !!!`)
-        }
-        if (!name || !email || !message ) {
-            alert('Please enter all Fields')
-        }
-        if (validateEmail(email) && name && email && message) {
-        alert(`Thanks for Submitting! currently this from is just for show so I encourage you to use the links at the bottom if you would like to contact me`)
-       setEmail(``)
-       setMessage(``)
-       setName(``) 
-    }
+    // }
+    // const handleSubmit = (e) => {
+    //     e.preventDefault()
+    //     if(!validateEmail(email)) {
+    //         alert(`not a valid Email !!!`)
+    //     }
+    //     if (!name || !email || !message ) {
+    //         alert('Please enter all Fields')
+    //     }
+    //     if (validateEmail(email) && name && email && message) {
+    //    setEmail(``)
+    //    setMessage(``)
+    //    setName(``) 
+    // }
 
        
-    }
+    // }
 
     return (
-        <form className="form">
+        <form className="form"  action="https://formsubmit.co/your@email.com" method="POST">
+            <label for="name">Name: </label>
             <input
-                value={name}
+                // value={name}
                 name="name"
-                onChange={handleChange}
+                id="name"
+                // onChange={handleChange}
                 type="text"
                 placeholder="name"
+                required
             /> <br/>
+            <label for="title">Professional Title: </label>
             <input
-                value={email}
+                // value={name}
+                name="title"
+                id="title"
+                // onChange={handleChange}
+                type="text"
+                placeholder="professional title"
+            /> <br/>
+            <label for="email">Contact E-Mail: </label>
+            <input
+                // value={email}
                 name="email"
-                onChange={handleChange}
+                id="email"
+                // onChange={handleChange}
                 type="email"
                 placeholder="email"
+                required
             /><br/>
+            <label for="message">Comments, Question and/or Concerns: </label>
             <input
-                value={message}
+                // value={message}
                 name="message"
-                onChange={handleChange}
-                type="text"
+                id="message"
+                // onChange={handleChange}
+                type="textarea"
                 placeholder="message"
             /><br/>
-            <button type="button" onClick={handleSubmit}>Submit</button>
+            <button type="submit" 
+            // onClick={handleSubmit}
+            >Submit</button>
        
         </form>
     )
