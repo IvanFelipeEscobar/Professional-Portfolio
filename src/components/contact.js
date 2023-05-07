@@ -1,5 +1,5 @@
 import React from "react"
-import Form from "./Form"
+import SubmitForm from "./SubmitForm"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFileZipper} from "@fortawesome/free-solid-svg-icons"
 // import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
@@ -12,7 +12,7 @@ const Contact = () => {
          <FontAwesomeIcon icon={faFileZipper} />    Contact
         </h2>
         <div className="card-body">
-            <Form />
+            <SubmitForm />
         </div>
       </div>
     )
