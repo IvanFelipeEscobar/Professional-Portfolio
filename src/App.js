@@ -6,7 +6,9 @@ import Projects from './components/Projects'
 import Footer from "./components/Footer"
 import projects from './utils/projectsArray'
 import './App.css';
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
 
 const  App = () => {
    return ( <Router>
