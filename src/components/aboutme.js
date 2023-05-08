@@ -7,8 +7,8 @@ const AboutMe = () => {
         <Card className='m-3'>
 
           <Card.Title className='m-3'><h2>About Me  <FontAwesomeIcon icon={faHatWizard}/></h2>
-          <img src={pp} alt='ivan escobar'/></Card.Title>
-          <Card.Body>
+          </Card.Title>
+          <Card.Body><img src={pp} alt='ivan escobar'/>
             <Card.Text>
               I am an Automotive Technician of 15+ years, looking to make a carrer switch into software development.
               Currently I am the shop manager/lead technician at Maximotor, a small family-owned repair shop in Marietta, GA.<br/>

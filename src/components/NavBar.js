@@ -1,7 +1,6 @@
 import {Nav, Navbar, Container} from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faHatWizard, faHome, faFileZipper, faCode} from '@fortawesome/free-solid-svg-icons'
-// import { LinkContainer } from 'react-router-bootstrap'
 const NavBar = () => {
     return(
     <Navbar bg="dark" variant="dark">
