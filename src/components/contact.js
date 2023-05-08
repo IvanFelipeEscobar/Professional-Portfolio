@@ -3,7 +3,6 @@ import SubmitForm from "./SubmitForm"
 import { Card } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFileZipper} from "@fortawesome/free-solid-svg-icons"
-// import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 
 const Contact = () => {
     return(
