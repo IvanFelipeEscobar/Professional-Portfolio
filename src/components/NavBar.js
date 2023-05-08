@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faHatWizard, faHome, faFileZipper, faCode} from '@fortawesome/free-solid-svg-icons'
 const NavBar = () => {
     return(
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" expand="sm">
     <Container>
      <Navbar.Brand>Ivan Felipe Escobar</Navbar.Brand>
       <Nav className="me-auto">
