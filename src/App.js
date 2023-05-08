@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar'
 import Home from './components/Home'
-import AboutMe from './components/AboutMe'
+import AboutMe from './components/Aboutme'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Footer from "./components/Footer"
