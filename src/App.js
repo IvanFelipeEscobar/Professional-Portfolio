@@ -11,7 +11,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 const  App = () => {
-   return ( <Router>
+   return ( <Router basename='/Professional-Portfolio'>
         <NavBar/>
         <Routes>
             <Route
