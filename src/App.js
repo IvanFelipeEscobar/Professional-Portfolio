@@ -15,19 +15,19 @@ const  App = () => {
         <NavBar/>
         <Routes>
             <Route
-                path='/'
+                exact path='/'
                 element={<Home/>}
             />  
             <Route
-                path='/aboutme'
+                exact path='/aboutme'
                 element={<AboutMe/>}
             />
             <Route
-                path='/contact'
+                exact path='/contact'
                 element={<Contact/>}
             />
             <Route
-                path='/projects'
+                exact path='/projects'
                 element={<Projects projects={projects} />}
             />        
         </Routes>
