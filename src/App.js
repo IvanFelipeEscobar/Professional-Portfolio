@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 import projects from './utils/projectsArray'
 import './App.css';
 
-import {HashoRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 const  App = () => {
