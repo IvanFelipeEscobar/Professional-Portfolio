@@ -11,7 +11,7 @@ import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 const  App = () => {
-   return ( <Router basename='/Professional-Portfolio'>
+   return ( <Router>
         <NavBar/>
         <Routes>
             <Route
