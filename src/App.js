@@ -11,23 +11,23 @@ import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 const  App = () => {
-   return ( <Router basename='/Professional-Portfolio'>
+   return ( <Router basename=' /${process.env.PUBLIC_URL}'>
         <NavBar/>
         <Routes>
             <Route
-                exact path='/'
+                exact path=''
                 element={<Home/>}
             />  
             <Route
-                exact path='/aboutme'
+                exact path='aboutme'
                 element={<AboutMe/>}
             />
             <Route
-                exact path='/contact'
+                exact path='contact'
                 element={<Contact/>}
             />
             <Route
-                exact path='/projects'
+                exact path='projects'
                 element={<Projects projects={projects} />}
             />        
         </Routes>
