@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 import projects from './utils/projectsArray'
 import './App.css';
 const  App = () => {
-   return ( <Router>
+   return ( <Router basename='/Professional-Portfolio'>
         <NavBar/>
         <Routes>
             <Route
