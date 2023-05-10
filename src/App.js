@@ -15,7 +15,7 @@ const  App = () => {
         <NavBar/>
         <Routes>
             <Route
-                exact path='/'
+                exact path='/*'
                 element={<Home/>}
             />  
             <Route
