@@ -7,27 +7,26 @@ import Footer from "./components/Footer"
 import projects from './utils/projectsArray'
 import './App.css';
 
-import {HashRouter as Router, Routes, Route} from 'react-router-dom'
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 const  App = () => {
    return ( <Router basename=' /${process.env.PUBLIC_URL}'>
         <NavBar/>
         <Routes>
             <Route
-                exact path=''
+                path=''
                 element={<Home/>}
             />  
             <Route
-                exact path='aboutme'
+                path='aboutme'
                 element={<AboutMe/>}
             />
             <Route
-                exact path='contact'
+                path='contact'
                 element={<Contact/>}
             />
             <Route
-                exact path='projects'
+                path='projects'
                 element={<Projects projects={projects} />}
             />        
         </Routes>
