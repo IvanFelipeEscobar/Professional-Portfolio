@@ -8,11 +8,11 @@ import Footer from "./components/Footer"
 import projects from './utils/projectsArray'
 import './App.css';
 const  App = () => {
-   return ( <Router basename='/Professional-Portfolio'>
+   return ( <Router>
         <NavBar/>
         <Routes>
             <Route
-                path='/'
+                path='/*'
                 element={<Home/>}
             />  
             <Route
