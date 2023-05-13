@@ -30,7 +30,7 @@ const SubmitForm = () => {
                 <Form.Control name="name" type="textarea" placeholder="name"/>
             </Form.Group>
             <Button className='mt-2' type='submit' variant='dark'>submit</Button><br/>
-            <Form.Text className='text-muted'>Submitted information will be e-mailed to ivnescbr1989@gmail.com via formsubmit.co</Form.Text>
+            <Form.Text className='text-muted'>Submitted info will be e-mailed to ivnescbr1989@gmail.com via formsubmit.co</Form.Text>
            
         </Form>
         </Card>
