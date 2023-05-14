@@ -16,7 +16,7 @@ const Home = () => {
           </Card.Title>
           <Card.Body>
             <Card.Text> 
-              Thanks for visiting my Professional Portfolio! I've created this simple application to showcase some basic knowledge in web development tooling and technologies.
+              Thanks for visiting my Professional Portfolio! I've created this simple application to showcase some of the 
              </Card.Text>
             <img src={html5} alt="HTML 5"/>
             <img src={css} alt="css"/>

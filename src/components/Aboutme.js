@@ -7,8 +7,9 @@ const AboutMe = () => {
         <Card className='m-3'>
           <Card.Title className='m-3'><h2>About Me  <FontAwesomeIcon icon={faHatWizard}/></h2>
           </Card.Title>
-          <Card.Body><img src={pp} alt='ivan escobar'/>
+          <Card.Body>
             <Card.Text>
+           <span className='about-title'>  <img src={pp} alt='ivan escobar'/><h2>Hey! I'm Felipe</h2></span>
               I am an Automotive Technician of 15+ years, looking to make a carrer switch into software development.
               Currently I am the shop manager/lead technician at Maximotor, a small family-owned repair shop in Marietta, GA.<br/>
               Problem solving is an everyday part of the Automotive industry and I am proficient in it, and to some extent enjoy the thrill of overcoming a difficult endeavor.

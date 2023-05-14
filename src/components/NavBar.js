@@ -4,9 +4,11 @@ import {faHatWizard, faHome, faFileZipper, faCode} from '@fortawesome/free-solid
 import { LinkContainer } from 'react-router-bootstrap'
 const NavBar = () => {
     return(
-    <Navbar bg="dark" variant="dark" expand="sm">
+    <Navbar expand="sm">
     <Container>
-     <Navbar.Brand>Ivan Felipe Escobar</Navbar.Brand>
+     <Navbar.Brand>
+          <h1>Ivan Felipe Escobar</h1>
+     </Navbar.Brand>
       <Nav className="me-auto">
         <LinkContainer to="/"><Nav.Link>Home <FontAwesomeIcon icon={faHome} /></Nav.Link></LinkContainer>
         <LinkContainer to="/aboutme"><Nav.Link>About Me <FontAwesomeIcon icon={faHatWizard} /></Nav.Link></LinkContainer>
