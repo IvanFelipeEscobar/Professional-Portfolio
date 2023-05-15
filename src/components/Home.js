@@ -11,7 +11,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
     return (
-        <Card className='m-3 home-card'>
+        <Card className='m-3 card'>
           <Card.Title className='m-3'><h2>Home <FontAwesomeIcon icon={faHouse}/></h2>
           </Card.Title>
           <Card.Body>

@@ -7,7 +7,7 @@ import { faFileZipper} from "@fortawesome/free-solid-svg-icons"
 const Contact = () => {
     return(
         //contact html here
-        <Card className='m-3'>
+        <Card className='m-3 card'>
           <Card.Title className='m-3'><h2>Contact  <FontAwesomeIcon icon={faFileZipper}/></h2>
           </Card.Title>
           <Card.Body>
