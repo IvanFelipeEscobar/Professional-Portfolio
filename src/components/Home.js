@@ -14,9 +14,9 @@ const Home = () => {
         <Card className='m-3 card'>
           <Card.Title className='m-3'><h2>Home <FontAwesomeIcon icon={faHouse}/></h2>
           </Card.Title>
-          <Card.Body>
+          <Card.Body fluid>
             <Card.Text> 
-              Thanks for visiting my Professional Portfolio! I've created this simple application to showcase some of the 
+              Thanks for visiting my Professional Portfolio! I've created this simple Single Page Application to showcase some of my knowledge in web development
              </Card.Text>
             <img src={html5} alt="HTML 5"/>
             <img src={css} alt="css"/>
