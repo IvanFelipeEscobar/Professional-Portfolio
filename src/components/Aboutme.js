@@ -4,7 +4,7 @@ import { faHatWizard } from "@fortawesome/free-solid-svg-icons"
 import pp from "../images/pp.png"
 const AboutMe = () => {
     return (
-        <Card className='m-3'>
+        <Card className='m-3 card'>
           <Card.Title className='m-3'><h2>About Me  <FontAwesomeIcon icon={faHatWizard}/></h2>
           </Card.Title>
           <Card.Body>
