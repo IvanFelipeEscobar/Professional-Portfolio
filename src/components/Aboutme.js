@@ -10,7 +10,7 @@ const AboutMe = () => {
           <Card.Body>
             <Card.Text>
            <span className='about-title'>  <img src={pp} alt='ivan escobar'/><h2>Hey! I'm Felipe</h2></span>
-              I am an Automotive Technician of 15+ years, looking to make a carrer switch into software development.
+              I am an aspiring Full Stack Web Developer leveraging over 15 years in the automotive industry. Recently earned a certificate in Web Development from the Georgia Institute of Technology
               Currently I am the shop manager/lead technician at Maximotor, a small family-owned repair shop in Marietta, GA.<br/>
               Problem solving is an everyday part of the Automotive industry and I am proficient in it, and to some extent enjoy the thrill of overcoming a difficult endeavor.
               Efficient communication skills are required in order to properly convey to the technician the cutomer's concern, as well as to communicate to the customer the recommended repairs.
