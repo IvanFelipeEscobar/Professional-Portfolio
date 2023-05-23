@@ -9,6 +9,7 @@ import projects from './utils/projectsArray'
 import './App.css';
 const  App = () => {
    return ( <Router>
+    <div className='main'>
         <NavBar/>
         <Routes>
             <Route
@@ -29,6 +30,7 @@ const  App = () => {
             />        
         </Routes>
         <Footer/>
+        </div>
     </Router>
    )
 }
