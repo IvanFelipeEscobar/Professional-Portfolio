@@ -16,7 +16,7 @@ const Projects = ({projects}) => {
                             <Card className="item m-5">
                             <img  className="projectPic" src={process.env.PUBLIC_URL + p.src} alt={p.title}/>
                             
-                            <Card.Text>
+                            <Card.Text className="mb-2">
                                 <h3><a href={p.link}>{p.title}</a></h3>
                                 <a href={p.github}><FontAwesomeIcon icon={faGithub} /> GitHub Repo</a>
                             </Card.Text>
