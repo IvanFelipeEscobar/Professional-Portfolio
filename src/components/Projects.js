@@ -8,7 +8,7 @@ const Projects = ({projects}) => {
           <Card.Title className='m-3'><h2>Projects <FontAwesomeIcon icon={faCode}/></h2>
           </Card.Title>
           
-            <Carousel variant="dark">
+            <Carousel className='carousel' variant="dark">
             
                 {
                     projects.map( p => (

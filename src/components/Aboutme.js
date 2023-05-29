@@ -7,7 +7,7 @@ const AboutMe = () => {
         <Card className='m-3 card'>
           <Card.Title className='m-3'><h2>About Me  <FontAwesomeIcon icon={faHatWizard}/></h2>
           </Card.Title>
-          <Card.Body>
+          <Card.Body className='m-3'>
             <Card.Text>
            <span className='about-title'>  <img src={pp} alt='ivan escobar'/><h2>Hey! I'm Felipe</h2></span>
               I am an aspiring Full Stack Web Developer leveraging over 15 years in the automotive industry. Recently earned a certificate in Web Development from the Georgia Institute of Technology

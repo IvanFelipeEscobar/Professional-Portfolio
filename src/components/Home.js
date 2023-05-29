@@ -14,19 +14,20 @@ const Home = () => {
         <Card className='m-3 card'>
           <Card.Title className='m-3'><h2>Home <FontAwesomeIcon icon={faHouse}/></h2>
           </Card.Title>
-          <Card.Body fluid>
-            <Card.Text> 
-              Thanks for visiting my Professional Portfolio! I've created this simple Single Page Application to showcase some of my knowledge in web development
+          <Card.Body>
+            <Card.Text className="m-5"> 
+              Thanks for visiting my Professional Portfolio! I've created this React Single Page Application to showcase some of my knowledge in web development
              </Card.Text>
+             <div className="img-sec">
             <img src={html5} alt="HTML 5"/>
             <img src={css} alt="css"/>
             <img src={js} alt="JavaScript"/>
             <img src={node} alt="Node JS"/>
             <img src={reactIcon} alt="React"/><br/>
-          </Card.Body>
-          <Card.Footer className="fluid">
+             </div>
+          
             <a href={resume} className="btn btn-secondary">Resume</a>
-          </Card.Footer>
+          </Card.Body>
         </Card>
     )
 }
