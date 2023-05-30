@@ -1,7 +1,7 @@
 import {Form, Button, Card} from 'react-bootstrap'
 const SubmitForm = () => { 
     return (
-        <Card className='m-3 p-1'>
+        <Card className='m-3 p-3 card'>
         <Form className="form"  action="https://formsubmit.co/ivnescbr1989@gmail.com" method="POST">
             <Form.Group className='m-1'>
                 <Form.Label>
