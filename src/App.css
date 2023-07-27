@@ -1,47 +1,12 @@
-body {
-  font-family: Georgia, "Times New Roman", Times, serif !important;
-  margin: 0;
-  padding: 0;
-  background-color: rgba(52, 129, 171, 0.309) !important;
-}
-.carousel {
-  width: 70%;
-}
-img {
-  height: 75px;
-  width: 75px;
-  margin: 12px;
-}
-.projectPic {
-  height: 215px;
-  width: 198px;
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: aliceblue; 
+  color: #000;
 }
 .card {
-  background-color: rgb(137, 211, 242) !important;
-  border-radius: 30px !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-img {
-  border-radius: 20px;
-}
-.about-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 17px;
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 138px !important;
 }
