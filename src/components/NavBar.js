@@ -2,46 +2,37 @@
 // import { LinkContainer } from "react-router-bootstrap";
 import { Link } from "react-router-dom";
 const NavBar = () => {
+  const linkStyle = {
+    textDecoration: "none",
+    color: `aliceblue`,
+  };
   return (
-    // <Navbar expand="sm">
-
-    //   <Container>
-    //     <Navbar.Brand>
-    //       <h1>Ivan Felipe Escobar</h1>
-    //     </Navbar.Brand>
-    //     <Nav className="me-auto">
-    //       <LinkContainer to="/">
-    //         <Nav.Link>Home</Nav.Link>
-    //       </LinkContainer>
-    //       <LinkContainer to="/aboutme">
-    //         <Nav.Link>About</Nav.Link>
-    //       </LinkContainer>
-    //       <LinkContainer to="/projects">
-    //         <Nav.Link>Projects</Nav.Link>
-    //       </LinkContainer>
-    //       <LinkContainer to="/contact">
-    //         <Nav.Link>Contact</Nav.Link>
-    //       </LinkContainer>
-    //     </Nav>
-    //   </Container>
-
-    // </Navbar>
-    <nav className="main-nav">
-      <Link to="/">
-        <div className="man-nav__brand">Ivan Felipe Escobar</div>
-      </Link>
-      <ul className="main-nav__links">
-        <li className="main-nav__link">
-          <Link to="/aboutme">About</Link>
-        </li>
-        <li className="main-nav__link">
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li className="main-nav__link">
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="main-header">
+      <div className="nav__brand">
+        <Link to="/" style={linkStyle}>
+          <h1>Ivan Felipe Escobar</h1>
+        </Link>
+      </div>
+      <nav className="nav">
+        <ul className="nav__links">
+          <li className="nav__link">
+            <Link to="/aboutme" style={linkStyle}>
+              About
+            </Link>
+          </li>
+          <li className="nav__link">
+            <Link to="/projects" style={linkStyle}>
+              Projects
+            </Link>
+          </li>
+          <li className="nav__link">
+            <Link to="/contact" style={linkStyle}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 

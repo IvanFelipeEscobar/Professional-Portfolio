@@ -1,12 +1,43 @@
-.main-nav {
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: darkslategrey;
+  color: aliceblue;
+}
+.main-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: aliceblue; 
+  background-color: darkslategray; 
   color: #000;
 }
-.card {
-  margin-top: 138px !important;
+.nav {
+  display: inline-block;
+  text-align: right;
+}
+.nav__brand {
+  margin-left: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav__links{
+  display: inline-block;
+  list-style: none;
+}
+.nav__link {
+  display: inline-block;
+  padding: 1rem;
+
+}
+
+.profile-section {
+  margin-top: 172px;
+}
+
+.img-sec img {
+  height: 3rem;
 }

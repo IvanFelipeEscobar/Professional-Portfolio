@@ -10,7 +10,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
     return (
-        <div className='card'>
+        <div className='profile-section'>
           <h2>Home <FontAwesomeIcon icon={faHouse}/></h2>
         <div>
               Thanks for visiting my Professional Portfolio! I've created this React Single Page Application to showcase some of my knowledge in web development
