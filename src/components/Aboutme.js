@@ -3,7 +3,7 @@ import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
 import pp from "../images/pp.png";
 const AboutMe = () => {
   return (
-    <div className="card">
+    <div className="profile-section">
       <div className="m-3">
         <h2>
           About Me <FontAwesomeIcon icon={faHatWizard} />
@@ -11,7 +11,6 @@ const AboutMe = () => {
       </div>
       <div>
         <span className="about-title">
-          {" "}
           <img src={pp} alt="ivan escobar" />
           <h2>Hey! I'm Felipe</h2>
         </span>

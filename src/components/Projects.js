@@ -4,7 +4,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Projects = ({ projects }) => {
   return (
-    <Card className="m-3 card">
+    <div className="profile-section">
       <Card.Title className="m-3">
         <h2>
           Projects <FontAwesomeIcon icon={faCode} />
@@ -33,7 +33,7 @@ const Projects = ({ projects }) => {
           </Carousel.Item>
         ))}
       </Carousel>
-    </Card>
+    </div>
   );
 };
 export default Projects;
