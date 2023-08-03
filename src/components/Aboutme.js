@@ -1,31 +1,38 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
+import { Col, Row } from "react-bootstrap";
 import pp from "../images/pp.png";
 import TypingAnimation from "./TypingAnimation";
 const AboutMe = () => {
-  return (<>
-    <div className="animation-space"><TypingAnimation/></div>
-    <div className="about-section">
-      <figure>
-        <img src={pp} alt="ivan escobar" className="my-pic" />{" "}
-        <figcaption> Hey! I'm Felipe</figcaption>
-      </figure>
-      <p>
-      I'm delighted to welcome you to my coding journey. With over 15 years of
-      experience as an automotive mechanic, I've developed a deep appreciation
-      for problem-solving, attention to detail, and a strong work ethic.
-      However, my passion for creating elegant and efficient solutions in the
-      digital realm led me to explore the world of web development.
-     
-      <br />
-      Problem solving is an everyday part of the Automotive industry and I am
-      proficient in it, and enjoy the thrill of overcoming a difficult endeavor.
-      Efficient communication skills are required in order to properly convey to
-      the technician the cutomer's concern, and to help the customer understand
-      what repairs are required.
-      <br />I am passionate about software development and I am eager to
-      continue to grow as a developer!</p>
-    </div></>
+  return (
+    <>
+      <TypingAnimation />
+      <Row className="about-section">
+        <Col className="pic-box" xs={12} sm={6} md={4}>
+          <figure>
+            <img src={pp} alt="ivan escobar" className="my-pic" />{" "}
+            <figcaption> Hey! I'm Felipe</figcaption>
+          </figure>
+        </Col>
+        <Col className="text-box" xs={12} sm={6} md={8}>
+          <p>
+            I am a mechanic with 15 years of experience who transitioned into
+            web development through a Flex Full Stack Web Development Bootcamp
+            at the Georgia Institute of Technology. My expertise lies in the
+            MERN stack, encompassing MongoDB, Express, React, and Node.js. My
+            skillset includes HTML, CSS, JavaScript, Bootstrap, jQuery, and
+            server-side rendering with Handlebars.js. I'm proficient in both SQL
+            (MySQL, Sequelize) and NoSQL (MongoDB, Mongoose) databases. I excel
+            in building RESTful APIs, consuming them using tools like Postman,
+            and developing modern, high-performance applications with React,
+            PWA, and GraphQL. I've also explored TypeScript for enhanced code
+            maintainability. With a unique blend of mechanical and software
+            knowledge, I'm eager to take on new challenges and grow as a
+            software development professional.
+          </p>
+        </Col>
+      </Row>
+    </>
   );
 };
 export default AboutMe;

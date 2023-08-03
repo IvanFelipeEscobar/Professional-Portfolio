@@ -1,85 +1,93 @@
 * {
   box-sizing: border-box;
 }
-main {
-    background-color: blanchedalmond;
+
+body {
+  background-color: rgb(135, 88, 17);
 }
 /* Home Section Styling */
 .home-section {
-padding: 3rem auto;;
+  padding: 3rem auto;
 }
 .img-sec img {
-    height: 3rem;
-  }
+  height: 3rem;
+}
 
 /* AboutMe Section Styling */
 .about-section {
-    display: flex;
-    align-items: top;
+  margin-bottom: 9rem;
+  align-items: center;
+  justify-content: center;
 }
-figure {
-    text-align: center;
-    width: 30vw;
+.pic-box {
+    display: flex;
+  padding: .5rem;
+  align-items: center;
+  justify-content: center;
+}
+.pic-box figure {
+  text-align: center;
 }
 .my-pic {
-    height:5rem;
- border: solid 0.1rem black;
- width: fit-content;
- border-radius: 30px;
-}
-.animation-space {
-    text-align: center;
-    height: 3rem;
+  height: 17rem;
+  border: solid 0.1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-radius: 50px;
 }
 .text-animation {
-    font-family: "Courier New", monospace;
-    font-size: 18px;
-    border-right: 0.15em solid #000; /* Adds a typing cursor effect */
-    white-space: nowrap; /* Ensures text stays on a single line */
-    overflow: hidden; /* Prevents text from wrapping */
-  }
-  
+  text-align: center;
+  height: 3rem;
+}
+.text-animation {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  border-right: 0.15em solid #000; /* Adds a typing cursor effect */
+  white-space: nowrap; /* Ensures text stays on a single line */
+  overflow: hidden; /* Prevents text from wrapping */
+}
+
 .about-section p {
-    padding: 1rem 0.5rem;
-    width: 70vw;
-    text-align: left;
+  padding: 1rem 0.5rem;
+  text-align: left;
 }
 /* Project Section Styles */
 .project-section {
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
-.carousel{
-    margin: 2rem;
+.carousel {
+  margin: 2rem;
 }
-.carousel__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.carousel__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectPic {
-    height: 12rem;
-    width: 14rem;
+  height: 12rem;
+  width: 14rem;
 }
 
 /* Footer Styles */
 footer {
-    padding: 1rem;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.3) ;
-    z-index: 1;
-    display: flex;
-    position: fixed;
-    width: 100vw;
-    bottom: 0;
-    flex-direction: column;
-    align-items: center;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  flex-direction: column;
+  align-items: center;
 }
 .footer__links a {
-    margin: 1rem 0.7rem;
-}
-h6 { border: 1p solid 1px;
-    text-align: center;
+  margin: 1rem 0.7rem;
 }
 
+h6 {
+  border: 1p solid 1px;
+  text-align: center;
+}
