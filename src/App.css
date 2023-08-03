@@ -1,43 +1,85 @@
 * {
   box-sizing: border-box;
 }
-html {
-  font-family: 'Times New Roman', Times, serif;
-  background-color: darkslategrey;
-  color: aliceblue;
+main {
+    background-color: blanchedalmond;
 }
-.main-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-  background-color: darkslategray; 
-  color: #000;
+/* Home Section Styling */
+.home-section {
+padding: 3rem auto;;
 }
-.nav {
-  display: inline-block;
-  text-align: right;
-}
-.nav__brand {
-  margin-left: 2rem;
-  display: inline-block;
-  vertical-align: middle;
-}
-.nav__links{
-  display: inline-block;
-  list-style: none;
-}
-.nav__link {
-  display: inline-block;
-  padding: 1rem;
-
-}
-
-.profile-section {
-  margin-top: 172px;
-}
-
 .img-sec img {
-  height: 3rem;
+    height: 3rem;
+  }
+
+/* AboutMe Section Styling */
+.about-section {
+    display: flex;
+    align-items: top;
 }
+figure {
+    text-align: center;
+    width: 30vw;
+}
+.my-pic {
+    height:5rem;
+ border: solid 0.1rem black;
+ width: fit-content;
+ border-radius: 30px;
+}
+.animation-space {
+    text-align: center;
+    height: 3rem;
+}
+.text-animation {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    border-right: 0.15em solid #000; /* Adds a typing cursor effect */
+    white-space: nowrap; /* Ensures text stays on a single line */
+    overflow: hidden; /* Prevents text from wrapping */
+  }
+  
+.about-section p {
+    padding: 1rem 0.5rem;
+    width: 70vw;
+    text-align: left;
+}
+/* Project Section Styles */
+.project-section {
+    margin-bottom: 10rem;
+}
+.carousel{
+    margin: 2rem;
+}
+.carousel__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectPic {
+    height: 12rem;
+    width: 14rem;
+}
+
+/* Footer Styles */
+footer {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.3) ;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__links a {
+    margin: 1rem 0.7rem;
+}
+h6 { border: 1p solid 1px;
+    text-align: center;
+}
+
