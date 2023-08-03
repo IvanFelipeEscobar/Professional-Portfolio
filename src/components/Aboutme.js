@@ -1,34 +1,31 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
 import pp from "../images/pp.png";
+import TypingAnimation from "./TypingAnimation";
 const AboutMe = () => {
-  return (
-    <div className="profile-section">
-      <div className="m-3">
-        <h2>
-          About Me <FontAwesomeIcon icon={faHatWizard} />
-        </h2>
-      </div>
-      <div>
-        <span className="about-title">
-          <img src={pp} alt="ivan escobar" />
-          <h2>Hey! I'm Felipe</h2>
-        </span>
-        I am an aspiring Full Stack Web Developer leveraging over 15 years in
-        the automotive industry. Recently earned a certificate in Web
-        Development from the Georgia Institute of Technology, focusing on the
-        MERN stack. Currently, I am the shop manager/lead technician at
-        Maximotor, a small family-owned repair shop in Marietta, GA.
-        <br />
-        Problem solving is an everyday part of the Automotive industry and I am
-        proficient in it, and enjoy the thrill of overcoming a difficult
-        endeavor. Efficient communication skills are required in order to
-        properly convey to the technician the cutomer's concern, and to help the
-        customer understand what repairs are required.
-        <br />I am passionate about software development and I am eager to
-        continue to grow as a developer!
-      </div>
-    </div>
+  return (<>
+    <div className="animation-space"><TypingAnimation/></div>
+    <div className="about-section">
+      <figure>
+        <img src={pp} alt="ivan escobar" className="my-pic" />{" "}
+        <figcaption> Hey! I'm Felipe</figcaption>
+      </figure>
+      <p>
+      I'm delighted to welcome you to my coding journey. With over 15 years of
+      experience as an automotive mechanic, I've developed a deep appreciation
+      for problem-solving, attention to detail, and a strong work ethic.
+      However, my passion for creating elegant and efficient solutions in the
+      digital realm led me to explore the world of web development.
+     
+      <br />
+      Problem solving is an everyday part of the Automotive industry and I am
+      proficient in it, and enjoy the thrill of overcoming a difficult endeavor.
+      Efficient communication skills are required in order to properly convey to
+      the technician the cutomer's concern, and to help the customer understand
+      what repairs are required.
+      <br />I am passionate about software development and I am eager to
+      continue to grow as a developer!</p>
+    </div></>
   );
 };
 export default AboutMe;
