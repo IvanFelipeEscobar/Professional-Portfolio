@@ -6,7 +6,7 @@ const NavBar = () => {
     <Navbar expand="sm" className="p-1 navbar">
       <Container className="m-auto">
         <LinkContainer to="/">
-          <Navbar.Brand className="">Ivan Felipe Escobar</Navbar.Brand>
+          <Navbar.Brand className="nav__brand">Ivan Felipe Escobar</Navbar.Brand>
         </LinkContainer>
       </Container>
 

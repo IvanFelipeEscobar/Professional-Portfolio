@@ -1,22 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Notable&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton?family=Fredericka+the+Great&family=Notable&display=swap");
 
 * {
   box-sizing: border-box;
 }
-#root,
-:root,
-html {
-  background-color: rgb(134, 207, 249);
-  height: 100vh;
-}
+
 /* Navbar Styleing */
 .navbar {
-  font-family: "Fredericka the Great", cursive;
-  background-color: rgb(141, 228, 206);
+  font-family: "Anton";
+  
+  /* background-color: rgb(141, 228, 206); */
+}
+.nav__brand {
+  color: blue;
 }
 .center-section {
-  background-color: rgb(134, 207, 249);
-  margin-bottom: 9rem;
+  /* background-color: rgb(134, 207, 249); */
+  margin-bottom: 4rem;
   align-items: center;
   justify-content: center;
 }
@@ -27,11 +26,7 @@ html {
 }
 
 /* AboutMe Section Styling */
-.about-section {
-  margin-bottom: 9rem;
-  align-items: center;
-  justify-content: center;
-}
+
 .pic-box {
   display: flex;
   padding: 0.5rem;
@@ -39,42 +34,49 @@ html {
   justify-content: center;
 }
 .pic-box figure {
+  margin: 0.2rem;
   text-align: center;
 }
 .my-pic {
-  height: 17rem;
-  box-shadow: -22px 1px 2px 2px rgb(141, 228, 206);
+  height: 19rem;
+  box-shadow: -22px 1px 2px 2px rgba(0, 0, 0, 0.1);
   width: fit-content;
   border-radius: 50%;
+  padding: 0.1rem;
 }
 .text-animation {
   text-align: center;
-  height: 3rem;
-  padding: 0.6rem;
-}
-.text-animation {
-  font-family: "Notable";
+  font-family: "Fredericka the Great";
   font-size: 18px;
   white-space: nowrap;
+  height: 100%;
 }
 
 .center-section p {
   padding: 0.2rem;
-  font-family: "Fredericka the Great", cursive;
+  font-family: "Anton";
   font-size: 1.2rem;
 }
 /* Project Section Styles */
 .project-section {
-  margin-bottom: 10rem;
+  margin: 2rem 0.5rem 8rem 2rem;
 }
 .carousel {
   margin: 2rem;
+  padding: 1rem;
+  border: 1.5px solid black;
+  box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .carousel__item {
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.carousel__item a {
+  text-decoration: none;
+  color: black;
 }
 
 .projectPic {
@@ -82,10 +84,15 @@ html {
   width: 14rem;
 }
 
+/* Contact Section Styles */
+.contact__title {
+  text-align: center;
+}
+
 /* Footer Styles */
 footer {
   padding: 0.5rem;
-  background-color: rgb(141, 228, 206);
+  background-color: rgb(255, 255, 255);
   z-index: 1;
   display: flex;
   position: fixed;

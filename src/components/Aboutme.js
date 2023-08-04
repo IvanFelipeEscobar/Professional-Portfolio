@@ -5,12 +5,11 @@ import pp from "../images/pp.png";
 import TypingAnimation from "./TypingAnimation";
 const AboutMe = () => {
   return (
-    <div className="center-section">
-      <TypingAnimation />
-      <Row>
+      <Row className="center-section">
         <Col className="pic-box" xs={12} sm={6} md={4}>
           <figure>
             <img src={pp} alt="ivan escobar" className="my-pic" />
+            <figcaption><TypingAnimation /></figcaption>
           </figure>
         </Col>
         <Col className="text-box" xs={12} sm={6} md={8}>
@@ -31,7 +30,6 @@ const AboutMe = () => {
           </p>
         </Col>
       </Row>
-    </div>
   );
 };
 export default AboutMe;
