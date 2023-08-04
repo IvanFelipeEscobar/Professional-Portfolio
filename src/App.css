@@ -1,14 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Notable&display=swap");
+
 * {
   box-sizing: border-box;
 }
-
-body {
-  background-color: rgb(135, 88, 17);
+#root,
+:root,
+html {
+  background-color: rgb(134, 207, 249);
+  height: 100vh;
+}
+/* Navbar Styleing */
+.navbar {
+  font-family: "Fredericka the Great", cursive;
+  background-color: rgb(141, 228, 206);
+}
+.center-section {
+  background-color: rgb(134, 207, 249);
+  margin-bottom: 9rem;
+  align-items: center;
+  justify-content: center;
 }
 /* Home Section Styling */
-.home-section {
-  padding: 3rem auto;
-}
+
 .img-sec img {
   height: 3rem;
 }
@@ -20,8 +33,8 @@ body {
   justify-content: center;
 }
 .pic-box {
-    display: flex;
-  padding: .5rem;
+  display: flex;
+  padding: 0.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -30,26 +43,25 @@ body {
 }
 .my-pic {
   height: 17rem;
-  border: solid 0.1rem rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: -22px 1px 2px 2px rgb(141, 228, 206);
   width: fit-content;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .text-animation {
   text-align: center;
   height: 3rem;
+  padding: 0.6rem;
 }
 .text-animation {
-  font-family: "Courier New", monospace;
+  font-family: "Notable";
   font-size: 18px;
-  border-right: 0.15em solid #000; /* Adds a typing cursor effect */
-  white-space: nowrap; /* Ensures text stays on a single line */
-  overflow: hidden; /* Prevents text from wrapping */
+  white-space: nowrap;
 }
 
-.about-section p {
-  padding: 1rem 0.5rem;
-  text-align: left;
+.center-section p {
+  padding: 0.2rem;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 1.2rem;
 }
 /* Project Section Styles */
 .project-section {
@@ -73,8 +85,7 @@ body {
 /* Footer Styles */
 footer {
   padding: 0.5rem;
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgb(141, 228, 206);
   z-index: 1;
   display: flex;
   position: fixed;
@@ -84,7 +95,7 @@ footer {
   align-items: center;
 }
 .footer__links a {
-  margin: 1rem 0.7rem;
+  margin: 0.7rem;
 }
 
 h6 {

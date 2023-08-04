@@ -8,7 +8,7 @@
 
 const Home = () => {
     return (
-        <div className='home-section'>
+        <div className='center-section'>
         <div>
               
              {/* <div className="img-sec">

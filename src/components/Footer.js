@@ -22,7 +22,7 @@ const Footer = () => {
           <FontAwesomeIcon
             icon={faLinkedin}
             size="2x"
-            style={{ color: "#000000" }}
+            // style={{ color: "#000000" }}
           />
         </a>
         <a href="https://stackoverflow.com/users/20161905/ivan-escobar">
@@ -36,7 +36,7 @@ const Footer = () => {
           <FontAwesomeIcon
             icon={faPhone}
             size="2x"
-            style={{ color: "#000000" }}
+            // style={{ color: "#000000" }}
           />
         </a>
         <a href="mailto:ivnescbr1989@gmail.com">
@@ -48,7 +48,7 @@ const Footer = () => {
         </a>
       </div>
       
-      <h6>made with &#129505; by Ivan Felipe Escobar. MIT License 2023</h6>
+      <h6>made by Ivan Felipe Escobar 2023</h6>
     </footer>
   );
 };

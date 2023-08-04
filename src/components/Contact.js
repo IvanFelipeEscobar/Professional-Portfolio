@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 const Contact = () => {
   return (
     //contact html here
-    <div className="profile-section">
+    <div className="center-section">
       
       <Card.Body>
         <SubmitForm />

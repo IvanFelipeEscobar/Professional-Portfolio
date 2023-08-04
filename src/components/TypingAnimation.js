@@ -4,9 +4,9 @@ const TypingAnimation = () => {
   const phrases = useMemo(
     () => [
       "Hello, World!",
-      "I love coding.",
-      "Web development is my passion.",
-      "Let's build something amazing!"
+      "I'm a tinkerer",
+      "",
+      ""
     ],
     []
   );
@@ -51,7 +51,7 @@ const TypingAnimation = () => {
     setIsTyping(true);
   }, []);
 
-  return <div className="text-animation">{displayedText}</div>;
+  return <div className="text-animation" >{displayedText}</div>;
 };
 
 export default TypingAnimation;
