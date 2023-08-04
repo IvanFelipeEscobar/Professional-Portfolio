@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Projects = ({ projects }) => {
   return (
-    <div className="project-section">
-      <Carousel className="carousel" variant="dark" indicators={false}>
+    <div className="center-section">
+      <Carousel className="carousel" indicators={false} pause="hover">
         {projects.map((p) => (
           <Carousel.Item key={p.title}>
             <div className="carousel__item">

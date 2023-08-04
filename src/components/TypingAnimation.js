@@ -3,10 +3,13 @@ import React, { useState, useEffect, useMemo } from "react";
 const TypingAnimation = () => {
   const phrases = useMemo(
     () => [
-      "Hello, World!",
-      "I love coding.",
-      "Web development is my passion.",
-      "Let's build something amazing!"
+      `Hey! I'm Ivan`,
+      `I'm a developer`,
+      `I'm a tinkerer`,
+      `I love to play guitar!`,
+      'I build solutions',
+      'I want to make an impact',
+      `I love coding`
     ],
     []
   );
@@ -39,10 +42,10 @@ const TypingAnimation = () => {
     };
 
     if (isTyping) {
-      const typingInterval = setInterval(typeText, 100);
+      const typingInterval = setInterval(typeText, 200);
       return () => clearInterval(typingInterval); 
     } else {
-      const erasingInterval = setInterval(eraseText, 50); 
+      const erasingInterval = setInterval(eraseText, 80); 
       return () => clearInterval(erasingInterval); 
     }
   }, [phraseIndex, charIndex, phrases, isTyping]);
@@ -51,7 +54,7 @@ const TypingAnimation = () => {
     setIsTyping(true);
   }, []);
 
-  return <div className="text-animation">{displayedText}</div>;
+  return <div className="text-animation" >~ {displayedText}</div>;
 };
 
 export default TypingAnimation;
