@@ -1,11 +1,12 @@
 import { Form, Button, Card } from "react-bootstrap";
 const SubmitForm = () => {
   return (
-    <Card className="m-3 p-3 card">
+    <Card className="m-3 p-3 " bg="black" data-bs-theme="dark">
       <Form
         className="form"
         action="https://formsubmit.co/ivnescbr1989@gmail.com"
-        method="POST"
+        method="POST" 
+        // bg="black" data-bs-theme="dark"
       >
         <Form.Group className="m-1">
           <Form.Label>What is your name?</Form.Label>

@@ -3,7 +3,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const NavBar = () => {
   return (
-    <Navbar expand="sm" className="p-1 navbar">
+    <Navbar expand="sm" className="p-1 navbar" bg="black" data-bs-theme="dark">
       <Container className="m-auto">
         <LinkContainer to="/">
           <Navbar.Brand className="nav__brand">Ivan Felipe Escobar</Navbar.Brand>

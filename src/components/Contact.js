@@ -1,6 +1,5 @@
 import React from "react";
 import SubmitForm from "./SubmitForm";
-import { Card } from "react-bootstrap";
 
 const Contact = () => {
   return (
@@ -14,9 +13,8 @@ const Contact = () => {
           something together. Don't hesitate to reach out.
         </p>
       </div>
-      <Card>
         <SubmitForm />
-      </Card>
+      
     </div>
   );
 };

@@ -4,7 +4,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Projects = ({ projects }) => {
   return (
     <div className="center-section">
-      <Carousel className="carousel" indicators={false} pause="hover">
+      <div className="project__title">
+        <h1>Projects...</h1>
+        <p></p>
+      </div>
+      <Carousel
+        className="carousel"
+        indicators={false}
+        pause="hover"
+      >
         {projects.map((p) => (
           <Carousel.Item key={p.title}>
             <div className="carousel__item">
@@ -14,8 +22,8 @@ const Projects = ({ projects }) => {
                 alt={p.title}
               />
 
-              <a href={p.link}>{p.title}</a>
-
+              <a href={p.link} className="carousel__item--project-title">{p.title}</a>
+              <p>{p.description}</p>
               <a href={p.github}>
                 <FontAwesomeIcon icon={faGithub} /> GitHub Repo
               </a>
