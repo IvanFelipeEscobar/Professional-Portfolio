@@ -89,7 +89,11 @@
 }
 .carousel__item a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+.carousel__item a:hover,
+.carousel__item a:focus {
+  color: cyan;
 }
 .carousel__item--project-title {
 font-size: 2rem;
