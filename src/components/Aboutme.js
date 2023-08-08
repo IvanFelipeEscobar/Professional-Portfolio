@@ -26,7 +26,7 @@ const AboutMe = () => {
             applications with React. I've also explored TypeScript for enhanced
             code maintainability. With a unique blend of mechanical and software
             knowledge, I'm eager to take on new challenges and continue to grow
-            as a software development professional.
+            as a software developer.
           </p>
         </Col>
       </Row>

@@ -3,7 +3,6 @@ const SubmitForm = () => {
   return (
     <Card className="m-3 p-3 " bg="black" data-bs-theme="dark">
       <Form
-        className="form"
         action="https://formsubmit.co/ivnescbr1989@gmail.com"
         method="POST" 
         // bg="black" data-bs-theme="dark"
@@ -32,7 +31,7 @@ const SubmitForm = () => {
           </Form.Label>
           <Form.Control name="textarea-message" as="textarea" rows={3} />
         </Form.Group>
-        <Button className="mt-2" type="submit" variant="dark">
+        <Button className="mt-2 form-button" type="submit" variant="dark">
           submit
         </Button>
       </Form>
