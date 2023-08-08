@@ -13,7 +13,7 @@ const Contact = () => {
           something together. Don't hesitate to reach out.
         </p>
       </div>
-        <SubmitForm />
+        <div className="form"><SubmitForm /></div>
       
     </div>
   );
