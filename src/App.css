@@ -20,6 +20,7 @@
 }
 
 /* Home Section Styling */
+
 .home-title {
   text-align: center;
   padding: 3rem;
@@ -35,7 +36,28 @@
 
   height: 9rem;
 }
+.home a{
+  color: rgb(1, 25, 46);
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.resume-btn {
+  width: 34%;
+  margin: 3rem auto;
+  padding: 3rem;
+  border-radius: 50%;
+  background: whitesmoke;
+  border: solid 1px whitesmoke;
+  box-shadow: 0 0 2px 2px rgba(241, 230, 230, 0.679);
+}
+.resume-btn:hover,
+.resume-btn:focus {
 
+  background: rgb(1, 25, 46);
+  border: solid 1px rgb(1, 25, 46);
+  color: whitesmoke;
+}
 /* AboutMe Section Styling */
 
 .pic-box {
@@ -128,18 +150,18 @@ footer {
   border-top: 3px solid rgba(126, 126, 126, 0.3);
   border-radius: 7px 7px;
   z-index: 1;
-  display: flex;
   position: fixed;
   width: 100vw;
   bottom: 0;
-  flex-direction: column;
-  align-items: center;
+}
+.footer__links{
+  text-align: center;
+  padding: 0;
 }
 .footer__links a {
-  margin: 0.7rem;
+  margin:  1rem;
 }
 
-h6 {
-  border: 1p solid 1px;
+p{
   text-align: center;
 }
