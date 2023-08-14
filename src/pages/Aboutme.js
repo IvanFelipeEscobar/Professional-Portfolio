@@ -2,7 +2,7 @@
 // import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row } from "react-bootstrap";
 import pp from "../images/pp.png";
-import TypingAnimation from "./TypingAnimation";
+import TypingAnimation from "../components/TypingAnimation";
 const AboutMe = () => {
   return (
       <Row className="center-section">

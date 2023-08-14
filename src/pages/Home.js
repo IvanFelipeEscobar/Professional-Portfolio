@@ -10,8 +10,8 @@ import mysql from '../images/mysql.png'
 
 const Home = () => {
     return (
-        <div className='center-section'>
-        <div>
+        <div className='center-section home'>
+        
               <h2 className="home-title">Welcome</h2>
               
              <div className="img-sec">
@@ -27,8 +27,8 @@ const Home = () => {
             <br/>
              </div>
           
-            {/* <a href="https://docs.google.com/document/d/17Aw-E1eh9iOF9uW4VQX1DSyYzwHuMcKe/edit?usp=sharing&ouid=106679092608625552104&rtpof=true&sd=true" className="btn btn-secondary">Resume</a> */}
-        </div>
+            <a href="https://docs.google.com/document/d/17Aw-E1eh9iOF9uW4VQX1DSyYzwHuMcKe/edit?usp=sharing&ouid=106679092608625552104&rtpof=true&sd=true" rel="noreferrer" target="_blank"><div className="resume-btn">RESUME</div></a>
+        
         </div>
     )
 }

@@ -1,9 +1,9 @@
 import { HashRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Home from './components/Home'
-import AboutMe from './components/Aboutme'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
+import Home from './pages/Home'
+import AboutMe from './pages/Aboutme'
+import Contact from './pages/Contact'
+import Projects from './pages/Projects'
 import Footer from "./components/Footer"
 import projects from './utils/projectsArray'
 import './App.css';

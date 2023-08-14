@@ -8,6 +8,7 @@ import {
 const Footer = () => {
   return (
     <footer>
+
       <div className="footer__links">
         <a href="https://github.com/IvanFelipeEscobar">
           <FontAwesomeIcon
@@ -24,7 +25,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      
+      <p>Ivan Escobar ~ 2023</p>
     </footer>
   );
 };
